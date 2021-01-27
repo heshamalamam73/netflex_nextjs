@@ -4,8 +4,8 @@
 
 }
 .hero{
-  height: 800px;
   min-height: 80vh;
+  padding-bottom: 30px;
   background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
 }
 .hero::after{
@@ -134,11 +134,15 @@
   min-width: 500px;
   min-height: 400px;
   justify-content: center;
-  background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png") no-repeat center/cover;
+  background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png") no-repeat center;
+  background-size: 90%;
+
 }
 .item_img_cover .video{
   width: 100%;
   max-width: 400px;
+  overflow: hidden;
+
   //display: none;
   object-fit: cover;
   margin:40px auto;
@@ -154,8 +158,13 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  background-size: 80%;
+  overflow: hidden;
+
   background:url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png") no-repeat center ;
+
 }
+
 .item_img video{
   overflow: hidden;
   position: absolute;
@@ -207,12 +216,11 @@
 }
 .footer{
   box-sizing: border-box;
-  max-width: 70%;
 
 }
 .footer_cols {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
 
 }
@@ -339,14 +347,14 @@
 
 }
 
-@media screen and (max-width: 556px){
+@media screen and (max-width: 566px){
 
   .container{
     max-width: 95%;
     margin: auto;
   }
   .footer_cols{
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
 
 }
