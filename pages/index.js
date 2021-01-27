@@ -97,7 +97,7 @@ export default function Home() {
                     </div>
                     <div className={styles.item_img}>
                         <div className={styles.item_img_cover}>
-                                    <img src='mobile.jpg' alt=""/>
+                                    <img src='mobile.jpg' alt="" className={styles.img}/>
                         </div>
 
                     </div>

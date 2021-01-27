@@ -4,6 +4,7 @@
 
 }
 .hero{
+
   min-height: 80vh;
   background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
 }
@@ -45,13 +46,21 @@
 .nav:hover{
   opacity: 1;
 }
+.img{
+  width: 700px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
 .hero_center{
-  margin-top: 150px;
+  max-width: 95%;
+  margin:150px auto 0 auto;
   text-align: center;
   position: relative;
   z-index: 9;
 }
 .h1{
+  font-weight: 600;
   font-size: 38px;
   line-height: .9;
   color: aliceblue;
@@ -134,6 +143,8 @@
 .asks{
   text-align: center;
   padding: 20px 0 ;
+  max-width: 90%;
+  margin: auto;
 }
 .ask_item{
   background-color: #141414;;
@@ -252,6 +263,7 @@
     font-size: 0.9rem;
     margin: 0 auto;
     padding: 40px 0;
+
   }
     .footer_cols {
       display: grid;
