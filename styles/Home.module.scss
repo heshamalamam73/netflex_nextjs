@@ -4,7 +4,7 @@
 
 }
 .hero{
-
+  height: 800px;
   min-height: 80vh;
   background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
 }
@@ -76,8 +76,9 @@
   font-size: 18px;
   padding: 0px 30px;
 }
+
 .form input{
-  padding: 20px 40px;
+  padding: 20px 25px;
   display: block;
   margin:20px auto;
   width: 80%;
@@ -120,10 +121,12 @@
   display: flex;
   min-height: 400px;
   overflow: hidden;
-  width: 100%;
   justify-content: center;
+  max-width: 90%;
+  margin: auto;
 }
 .item_img_cover{
+  padding: 50px;
   box-sizing: border-box;
   position: absolute;
   display: flex;
@@ -200,6 +203,11 @@
 .active{
   height: 250px;
   opacity: 1;
+
+}
+.footer{
+  box-sizing: border-box;
+  max-width: 70%;
 
 }
 .footer_cols {
@@ -331,3 +339,14 @@
 
 }
 
+@media screen and (max-width: 556px){
+
+  .container{
+    max-width: 95%;
+    margin: auto;
+  }
+  .footer_cols{
+    grid-template-columns: 1fr;
+  }
+
+}
