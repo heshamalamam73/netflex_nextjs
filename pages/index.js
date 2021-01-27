@@ -115,16 +115,16 @@ export default function Home() {
 
                     </div>
                     <div className={styles.item_img}>
-                        <video
-                            className={styles.video2}
-                            autoPlay
-                            loop
-                            id='vid2'
-                        >
-                            <source src='vid1.m4v'/>
-                        </video>
-                        <div className={styles.item_img_cover2}>
 
+                        <div className={styles.item_img_cover}>
+                            <video
+                                className={styles.video}
+                                autoPlay
+                                loop
+                                id='vid2'
+                            >
+                                <source src='vid1.m4v'/>
+                            </video>
                         </div>
 
                     </div>
