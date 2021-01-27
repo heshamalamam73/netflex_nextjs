@@ -116,7 +116,7 @@ export default function Home() {
                     </div>
                     <div className={styles.item_img}>
                         <video
-                            className={styles.video}
+                            className={styles.video2}
                             autoPlay
                             loop
                             id='vid2'
