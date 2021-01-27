@@ -3,10 +3,10 @@ import styles from '../styles/Home.module.scss'
 import {useEffect, useState} from "react";
 
 export default function Home() {
-    // useEffect(() => {
-    //     document.getElementById('vid1').play();
-    //     document.getElementById('vid2').play();
-    // })
+    useEffect(() => {
+        document.getElementById('vid1').play();
+        document.getElementById('vid2').play();
+    })
     const handleShow =(e)=>{
 
         let id = e.target.id
